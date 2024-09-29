@@ -7,6 +7,10 @@ const CartItem = ({ onContinueShopping }) => {
   const cart = useSelector(state => state.cart.items);
   const dispatch = useDispatch();
 
+  const handleCheckoutShopping = (e) => {
+  alert('Functionality to be added for future reference');
+};
+
   // Calculate total amount for all products in the cart
   const calculateTotalAmount = () => {
  
